@@ -52,7 +52,7 @@ Answer:
 """
 
     response = client.models.generate_content(
-        model="models/gemini-3.1-flash-lite",
+        model="gemini-3.1-flash-lite",
         contents=prompt
     )
 
